@@ -1,0 +1,60 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+}
+
+.auth-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight:700;
+  padding: 0;
+  margin: 2px;
+
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth-box .btn {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.auth-box p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.auth-box a {
+    font-weight: bold;
+}
+.hype {
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: 100;
+    margin-top: 10px;/* Added padding for better spacing */
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

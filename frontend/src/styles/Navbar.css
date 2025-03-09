@@ -1,0 +1,82 @@
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures items are spaced correctly */
+    padding:8px; 
+    margin-bottom: 10px;/* Adds some spacing around the navbar */
+}
+
+.navbar-brand {
+    flex: 1; /* Pushes the brand to the left */
+}
+
+.navbar-brand h1 {
+  background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight:800;
+  padding: 0;
+  margin: 1px;
+  margin-left: 50px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centers the middle nav items */
+    flex: 2; /* Gives more space to the middle nav items */
+}
+
+.nav-link {
+    margin: 0 10px; /* Adds spacing between the links */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    font-weight: 510;
+    font-size: 20px;
+    
+}
+
+.nav-link:hover {
+    color: var(--secondary);
+    cursor: pointer; /* Change hover color */
+}
+
+.navbar-right {
+    flex: 1; /* Pushes the "Generate Now" button to the right */
+    display: flex;
+    justify-content:end; /* Ensures items are spaced correctly */
+    margin-right: 0; /* Remove margin to align items to the right */
+}
+
+button {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    color: var(--light);
+    border: none;
+    width: 160px;
+    font-size: 17px;
+    height: 50px;
+    margin:6px;
+    border-radius: 25px;
+    cursor: pointer;
+  
+  }
+
+  button:hover{
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+  }
+.out {
+    font-size: 30px;
+    color: #8f12f3; /* Change color to match the theme */
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+    margin: 10px;
+    margin-top: 22px; /* Add some space between buttons and icon */
+}

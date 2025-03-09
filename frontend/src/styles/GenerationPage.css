@@ -1,0 +1,131 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px auto;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 111px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-size: 26px;
+  background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+input,
+textarea,
+select {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: calc(100% - 20px);
+}
+
+select {
+  width: calc(100% - 20px);
+}
+.generate-button{
+  justify-self: center;
+}
+
+/* Add these styles to your GenerationPage.css file */
+
+.generated-content {
+margin-top: 2rem;
+padding: 1.5rem;
+background-color: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.document-actions {
+display: flex;
+gap: 10px;
+margin-bottom: 1rem;
+}
+
+.document-actions button {
+padding: 8px 16px;
+background-color: #4a6fa5;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+.document-actions button:hover {
+background-color: #3a5982;
+}
+
+.document-display {
+background-color: white;
+padding: 2rem;
+border: 1px solid #ddd;
+border-radius: 4px;
+line-height: 1.6;
+}
+
+.document-display h1 {
+font-size: 1.8rem;
+margin-top: 0;
+color: #333;
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+.document-display h2 {
+font-size: 1.4rem;
+color: #444;
+margin-top: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.document-display h3 {
+font-size: 1.2rem;
+color: #555;
+margin-top: 1.2rem;
+margin-bottom: 0.8rem;
+}
+
+.document-display p {
+margin-bottom: 1rem;
+}
+
+.document-editor {
+width: 100%;
+min-height: 400px;
+padding: 1rem;
+font-family: inherit;
+font-size: 1rem;
+line-height: 1.6;
+border: 1px solid #ddd;
+border-radius: 4px;
+resize: vertical;
+}
