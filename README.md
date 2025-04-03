@@ -6,7 +6,7 @@ Litigaide is an AI-powered legal document generator that helps users create well
 
 ## 🚀 Features
 - 📝 **AI-Based Plaint Generation**: Generates plaint documents based on user input.
-- 📄 **Download as PDF**: Converts the generated plaint into a downloadable PDF.
+- 📄 **Download as Word Document**: Converts the generated plaint into a downloadable Word Document.
 - 📑 **Database Storage**: Saves generated documents for future reference.
 - ⚡ **Fast and Secure**: Built with FastAPI for a high-performance backend.
 - 🌐 **User-Friendly UI**: Developed using React.js for seamless interaction.
